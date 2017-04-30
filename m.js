@@ -21,7 +21,7 @@
 
     var buildUrl = function buildUrl(ids) {
         var a = document.getElementById('link');
-        var baseUrl = 'http://www.youtube.com/watch_videos?title=m&video_ids=';
+        var baseUrl = 'https://www.youtube.com/watch_videos?title=m&video_ids=';
         if (ids.length > 0) {
             a.setAttribute('href', baseUrl + ids.join(','));
         } else {
@@ -32,7 +32,7 @@
 
     var buildFrame = function buildFrame(ids) {
         var frame = document.getElementById('frame');
-        var baseUrl = 'http://www.youtube.com/embed/?rel=0&playlist=';
+        var baseUrl = 'https://www.youtube.com/embed/?rel=0&playlist=';
         if (ids.length > 0) {
             frame.setAttribute('src', baseUrl + ids.join(','));
         } else {
