@@ -122,12 +122,54 @@
     };
 
 
-    var theData = [
-        {'id': 'n95eekfFZZg', 'tags': ['ro', 'in']},
-        {'id': '29uruM5-VYo', 'tags': ['ro', 'in']},
-        {'id': 'OC-JEWj5hZY', 'tags': ['em', 'dh']},
-        {'id': 'dheVr7Wdrro', 'tags': ['so', 'ja']}
-    ];
+    var theData = [{
+        'id': 'B9FzVhw8_bY',
+        'tags': [
+            'blues'
+        ]
+    }, {
+        'id': 'l-j-tPbOfYQ',
+        'tags': [
+            'world'
+        ]
+    }, {
+        'id': 'UtnIbs4Hbtg',
+        'tags': [
+            'electronic',
+            'funk',
+            'disco'
+        ]
+    }, {
+        'id': 'GozdgqO8yv8',
+        'tags': [
+            'electronic',
+            'techno'
+        ]
+    }, {
+        'id': '5asY4P77hFM',
+        'tags': [
+            'electronic'
+        ]
+    }, {
+        'id': 'nhP_VClP_E0',
+        'tags': [
+            'rock',
+            'indie',
+            'electronic'
+        ]
+    }, {
+        'id': 'WI4H6NyJAhs',
+        'tags': [
+            'disco',
+            'electronic'
+        ]
+    }, {
+        'id': '7s2uGxAXnX0',
+        'tags': [
+            'rock',
+            'punk'
+        ]
+    }];
 
 
     init(theData);
