@@ -7,13 +7,22 @@
     var buildIds = function buildIds(data, tags) {
         var i = 0;
         var j = 0;
+        var flag = false;
         var ids = [];
         for (i = 0; i < data.length; ++i) {
-            for (j = 0; j < tags.length; ++j) {
-                if (data[i]['tags'].includes(tags[j])) {
-                    ids.push(data[i]['id']);
-                    break;
+            flag = false;
+            if (tags.length > 0) {
+                for (j = 0; j < tags.length; ++j) {
+                    if (data[i]['tags'].includes(tags[j])) {
+                        flag = true;
+                        break;
+                    }
                 }
+            } else {
+                flag = true;
+            }
+            if (flag) {
+                ids.push(data[i]['id']);
             }
         }
         return ids;
