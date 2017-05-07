@@ -123,14 +123,25 @@
 
 
     var theData = [{
+        'id': 'l-j-tPbOfYQ',
+        'tags': [
+            'world'
+        ]
+    }, {
         'id': 'B9FzVhw8_bY',
         'tags': [
             'blues'
         ]
     }, {
-        'id': 'l-j-tPbOfYQ',
+        'id': 'Le-3MIBxQTw',
         'tags': [
-            'world'
+            'blues'
+        ]
+    }, {
+        'id': 'nqgMTa0F2uQ',
+        'tags': [
+            'blues',
+            'soul'
         ]
     }, {
         'id': 'UtnIbs4Hbtg',
@@ -140,15 +151,16 @@
             'disco'
         ]
     }, {
+        'id': '5asY4P77hFM',
+        'tags': [
+            'electronic',
+            'rock'
+        ]
+    }, {
         'id': 'GozdgqO8yv8',
         'tags': [
             'electronic',
             'techno'
-        ]
-    }, {
-        'id': '5asY4P77hFM',
-        'tags': [
-            'electronic'
         ]
     }, {
         'id': 'nhP_VClP_E0',
