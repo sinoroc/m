@@ -12,6 +12,7 @@
             for (j = 0; j < tags.length; ++j) {
                 if (data[i]['tags'].includes(tags[j])) {
                     ids.push(data[i]['id']);
+                    break;
                 }
             }
         }
